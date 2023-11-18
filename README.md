@@ -8,8 +8,7 @@ SOFTWARE SYSTEMS LAB KTU 2023
 |----| ------------- | ------------- |
 |1   | First Come First Serve| [code](CPUSched/fcfs.c)          |  
 |2   |Shortest Job First| [code](CPUSched/sjf.c)          |
-|3   | Priority Scheduling| [code](CPUSched/ps.c)          | 
-|4   | Round Robin| [code](CPUSched/rb.c)          | 
+|3  | Round Robin| [code](CPUSched/rb.c)          | 
 
 
 ## Page replacement Algorithms
