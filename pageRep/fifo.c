@@ -33,7 +33,7 @@ int main()
             m[count++] = rs[i];
             pf++;
         }
-        for(int j=0;j<f;j++) // for printf the current fram values
+        for(int j=0;j<f;j++) // for printf the current frame values
         {
             if(m[j]==-1)
             {
