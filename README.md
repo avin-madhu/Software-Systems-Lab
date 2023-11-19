@@ -12,7 +12,7 @@ SOFTWARE SYSTEMS LAB KTU 2023
 
 
 ## Page replacement Algorithms
-   |Sno:| Replacement Algorithm   |  Code          |
+   |Sno:| Replacement Algorithm  |  Code          |
 |----| ------------- | ------------- |
 |1   | First in First out | [code](pageRep/fifo.c)          |  
 |2   | LRU  | [code](pageRep/lru.c)          |
@@ -39,7 +39,7 @@ SOFTWARE SYSTEMS LAB KTU 2023
 |----| ------------- | ------------- |
 |1   | Pass 1 of 2-pass-assembler | [code](assembler/pass1/pass1.c)          |  
 |2   | Pass 2 of 2-pass-assembler | [code](assembler/pass2/pass2.c)          | 
-|3   | single pass assembler  | [code](assembler/singlepass/singlepass.c)          | 
+|3   | Single pass assembler  | [code](assembler/singlepass/singlepass.c)          | 
 |4   | Absolute Loader  | [code](assembler/absolute/absolute.c)          |
 
 
