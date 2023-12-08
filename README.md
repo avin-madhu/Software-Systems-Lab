@@ -41,6 +41,7 @@ SOFTWARE SYSTEMS LAB KTU 2023
 |2   | Pass 2 of 2-pass-assembler | [code](assembler/pass2/pass2.c)          | 
 |3   | Single pass assembler  | [code](assembler/singlepass/singlepass.c)          | 
 |4   | Absolute Loader  | [code](assembler/absolute/absolute.c)          |
+|5   | Relocation Loader  | [code](assembler/absolute/reloc/relocation.c)          |
 
 
 
