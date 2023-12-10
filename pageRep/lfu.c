@@ -1,11 +1,12 @@
 #include<stdio.h>
-void main()
+
+int main()
 {
     int f,p,pages[50],frame[10],hit=0,count[50],time[50];
     int i,j,flag,least,mintime,temp;
-    printf("Enter the number of frames");
+    printf("Enter the number of frames:");
     scanf("%d",&f);
-    printf("Enter the number of pages");
+    printf("Enter the number of pages:");
     scanf("%d",&p);
     for(i=0;i<f;i++){
         frame[i]=-1;
@@ -14,7 +15,7 @@ void main()
     {
         count[i]=0;
     }
-    printf("Enter the reference page string");
+    printf("Enter the reference page string:");
     for(i=0;i<p;i++)
     {
         scanf("%d",&pages[i]);
@@ -57,13 +58,15 @@ void main()
             count[frame[temp]]--;
             frame[temp]=pages[i];
         }
+    
         for(j=0;j<f;j++)
         {
-            printf("%d",frame[j]);
+            printf("%d\t",frame[j]);
         }
         printf("\n");
-        printf(" Total page hit=%d",hit);
-        printf("Total Page fault=%d",p-hit);
     }
+        printf(" Total page hit=%d\n",hit);
+        printf("Total Page fault=%d",p-hit);
+    return 0;
 
 }
