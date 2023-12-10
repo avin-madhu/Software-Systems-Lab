@@ -59,7 +59,7 @@ void main()
         }
         for(j=0;j<f;j++)
         {
-            printf("%d",&frame[j]);
+            printf("%d",frame[j]);
         }
         printf("\n");
         printf(" Total page hit=%d",hit);
