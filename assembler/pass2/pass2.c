@@ -7,7 +7,7 @@ void main()
     FILE *fint, *ftab, *flen, *fsym;
     int op1[10], textlen, textlen1, i, j = 0, len;
     char add[5], symadd[5], op[5], start[10], temp[30], line[20], label[20], mne[10], operand[10], symtab[10], opmne[10];
-    fint = fopen("input.txt", "r");
+    fint = fopen("intermediate.txt", "r");
     flen = fopen("length.txt", "r");
     ftab = fopen("optab.txt", "r");
     fsym = fopen("symtab.txt", "r");
